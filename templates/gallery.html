@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Art Gallery</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">
+</head>
+<body>
+
+    <h1 class="gallery-title">My Art Gallery</h1>
+    <p class="gallery-subtitle">A collection of my creative pieces shared on Instagram.</p>
+
+    <div class="nav-buttons">
+      <a href="{{ url_for('home') }}" class="nav-button">Home</a>
+      <a href="{{ url_for('contact') }}" class="nav-button">Contact</a>
+    </div>
+
+<!---------------------------------- POST 1---------------------------->
+  <div class="gallery-container">
+      <div class="gallery-item">
+        <blockquote class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/p/Cl4sK0BsrXE/?utm_source=ig_embed&amp;utm_campaign=loading"
+          data-instgrm-version="14">
+        </blockquote>
+      </div>
+<!---------------------------------- POST 2---------------------------->
+      <div class="gallery-item">
+        <blockquote class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/p/DHqGmc9TOYe/?utm_source=ig_embed&amp;utm_campaign=loading"
+          data-instgrm-version="14">
+        </blockquote>
+      </div>
+<!---------------------------------- POST 3---------------------------->
+       <div class="gallery-item">
+          <blockquote class="instagram-media"
+            data-instgrm-permalink="https://www.instagram.com/p/Ct4rL4NPV44/?utm_source=ig_embed&amp;utm_campaign=loading"
+            data-instgrm-version="14">
+          </blockquote>
+      </div>
+<!---------------------------------- POST 4---------------------------->
+        <div class="gallery-item">
+            <blockquote class="instagram-media"
+              data-instgrm-permalink="https://www.instagram.com/p/Cr4K5dbP-8E/?utm_source=ig_embed&amp;utm_campaign=loading"
+              data-instgrm-version="14">
+            </blockquote>
+        </div>
+<!---------------------------------POST 5------------------------------>
+        <div class="gallery-item">
+          <blockquote class="instagram-media"
+            data-instgrm-permalink="https://www.instagram.com/p/CjtPLOcvYFh/?utm_source=ig_embed&amp;utm_campaign=loading"
+            data-instgrm-version="14">
+          </blockquote>
+        </div>
+<!---------------------------------POST 6------------------------------>
+        <div class="gallery-item">
+          <blockquote class="instagram-media"
+            data-instgrm-permalink="https://www.instagram.com/p/ChhyZcRusKV/?utm_source=ig_embed&amp;utm_campaign=loading"
+            data-instgrm-version= "14">
+          </blockquote>
+        </div>       
+
+    </div>
+
+  </div>
+
+  <script async src="//www.instagram.com/embed.js"></script>
+</body>
+</html>

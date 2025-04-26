@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crowmingo's Art Space</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">
+</head>
+<body>
+    <div class="background"></div>
+    
+    <div class="container">
+        <img src="{{ url_for('static', filename='images/profile.jpg') }}" alt="Profile" class="profile-image fade-delay-1">
+        <h1 class="fade-delay-2">Hi, I'm crowmingo</h1>
+        <p class="fade-delay-3">Welcome to my art space...</p>
+
+        <div class="nav-buttons fade-delay-4">
+            <a href="{{ url_for('gallery') }}" class="btn">Art Gallery</a>
+            <a href="{{ url_for('contact') }}" class="btn">Contact</a>
+            <a href="https://instagram.com/crowmingo" class="btn" target="_blank">Instagram</a>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
